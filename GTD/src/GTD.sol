@@ -3,6 +3,7 @@ pragma solidity ^0.8.0;
 
 import "../lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
 import "../lib/openzeppelin-contracts/contracts/access/Ownable.sol";
+import "forge-std/console.sol";
 
 contract GTD is ERC20, Ownable {
     address public constant burnAddress = 0x0000000000000000000000000000000000000000;
